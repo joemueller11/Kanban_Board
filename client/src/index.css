@@ -6,10 +6,43 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root.light-mode {
+  color: #213547;
+  background-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1a1a1a;
+  }
+  
+  .ticket-card {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  
+  a {
+    color: #b864c4;
+  }
+
+  .todo {
+    background-color: #4a354c;
+  }
+  
+  .inprogress {
+    background-color: #732381;
+  }
+  
+  .done {
+    background-color: #4a1e53;
+  }
 }
 
 /* webkit solution */
