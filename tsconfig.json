@@ -6,10 +6,7 @@
     /* Modules */
     "module": "ESNext" /* Specify what module code is generated. */,
     "moduleResolution": "Node" /* Specify how TypeScript looks up a file from a given module specifier. */,
-    "resolveJsonModule": true, /* Enable importing .json files */
-    "baseUrl": "./src", /* Base directory to resolve non-relative module names */
-    "rootDir": "./src", /* Specify the root directory of input files */
-    "outDir": "./dist", /* Specify an output folder for all emitted files */
+    "resolveJsonModule": true /* Enable importing .json files */,
     "sourceMap": true, /* Create source map files for emitted JavaScript files */
     "skipLibCheck": true,
 
@@ -30,9 +27,7 @@
     "exactOptionalPropertyTypes": true /* Interpret optional property types as written, rather than adding 'undefined'. */,
     "noImplicitReturns": true /* Enable error reporting for codepaths that do not explicitly return in a function. */,
     "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
-    "useUnknownInCatchVariables": true /* Ensure 'unknown' is used for catch clause variables. */,
-    "types": ["node"]
+    "useUnknownInCatchVariables": true /* Ensure 'unknown' is used for catch clause variables. */
   },
-  "include": ["src/**/*"], /* Specify files to be included in compilation */
-  "exclude": ["node_modules", "dist"] /* Specify files to be excluded from compilation */
+  "exclude": ["node_modules", "dist"]
 }
