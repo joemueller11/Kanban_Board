@@ -1,7 +1,6 @@
 {
     "extends": "../tsconfig.json",
     "compilerOptions": {
-<<<<<<< HEAD
       "module": "Node16",
       "moduleResolution": "Node16",
       "rootDir": "src",
@@ -13,15 +12,5 @@
     },
     "include": ["src/**/*", "src/types"],
     "exclude": ["node_modules", "dist"],
-=======
-      /* Modules */
-      "rootDir": "src" /* Specify the root folder within your source files. */,
-  
-      /* Emit */
-      "outDir": "dist" /* Specify an output folder for all emitted files. */
-      // "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */
-    },
-    "include": ["src"],
->>>>>>> parent of bdcc22e (connect to our PostgreSQL instance hosted on Render)
     "typeRoots": ["./node_modules/@types", "./src/types"]
 }

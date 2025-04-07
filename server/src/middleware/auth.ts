@@ -15,7 +15,7 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
   }
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET as string) as JwtPayload;
+    const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY as string) as JwtPayload;
     
     // Add the user data to the request object
     req.user = { username: decoded.username };
