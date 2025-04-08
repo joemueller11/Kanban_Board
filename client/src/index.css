@@ -24,8 +24,8 @@
   }
   
   .ticket-card {
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.87);
+    background-color: #a19d9d;
+    color: rgba(10, 1, 1, 0.87);
   }
   
   a {
@@ -65,7 +65,7 @@ a:hover {
 }
 
 body {
-  background: #ECF0F1;
+  background: #1f2f53;
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
